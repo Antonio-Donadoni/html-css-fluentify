@@ -1,11 +1,50 @@
+/* CSS GENERALE */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* CSS HEADER */
 header {
   background-color: #2a4781;
   height: 400px;
 
+}
+
+/* CSS MAIN */
+
+.greysec {
+background-color: grey;
+height: 200px
+
+}
+
+#offered-services, #find-level {
+
+background-color: green;
+height: 300px;
+
+}
+#offered-services::after, #find-level::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card{
+  float: left;
+  background-color: pink;
+  width: 30%;
+  height: 300px;
+}
+.card.center  {
+  margin: 0 5%;
+}
+
+.card-2{
+  float: left;
+  background-color: yellow;
+  width: 40%;
+  height: 300px;
+  margin-left: 5%;
 }
