@@ -4,12 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.centratura{
+  padding: 0 5%;
+}
 /* CSS HEADER */
 header {
   background-color: #2a4781;
   height: 400px;
 
 }
+
+
 
 /* CSS MAIN */
 
