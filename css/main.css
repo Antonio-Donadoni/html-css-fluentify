@@ -12,6 +12,8 @@
   padding-left:5%;
 }
 
+hr {border-top: solid 1px #a1a1a1;}
+
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -111,7 +113,7 @@ padding: 30px 0;
   font-weight: 600;s
 }
 #greysec-top p {
- color: #a1a1a1;
+ color: #7f7f7f;
  padding-top: 10px;
 }
 
@@ -144,6 +146,8 @@ padding: 30px 5%;
 .card h3 {
   color: #94c732;
   font-weight: 600;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #a1a1a1;
 }
 .card p {
   color: #a1a1a1;
@@ -177,9 +181,11 @@ font-weight: 600;
   width: 25%;
   float:left;
 line-height: 150px;
+text-align: right;
 }
 .last-section-column:first-of-type {
   width: 50%;
+  text-align: left;
 }
 .last-section-column form {
   display:inline-block;
@@ -189,6 +195,10 @@ line-height: 150px;
   border-top: none;
   border-left: none;
   border-right: none;
+  color: #7f7f7f;
+}
+.last-section-column span {
+color: #7f7f7f;
 }
 .last-section-column h2{
   font-size: 150%;
