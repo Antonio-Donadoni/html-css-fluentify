@@ -8,14 +8,62 @@
 .centratura{
   padding: 0 5%;
 }
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
 /* CSS HEADER */
+
 header {
   background-color: #2a4781;
   height: 400px;
 
 }
+/* CSS NAVBAR */
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+  line-height: 60px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav img {
+  float: left;
+  padding: 5px;
+}
+nav ul{
+  float: left;
+  list-style-type: none;
+}
+nav li {
+  float: left;
+}
 
+nav a {
+  padding: 20px 10px;
+  text-decoration: none;
+  color: inherit;
+}
 
+.nav-right {
+  float: right;
+}
+.nav-right div {
+  display: inline-block;
+
+}
+  /* CSS JUMBO */
+
+  .jumbo {
+    height: 340px;
+    background-image: url("../img/fluentify-jumbo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 
 /* CSS MAIN */
 
