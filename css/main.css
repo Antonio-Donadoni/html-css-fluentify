@@ -78,15 +78,20 @@ nav a {
     transform: translateY(-50%);
   }
 
-
 /* CSS MAIN */
 
-.greysec {
+#greysec-top {
 background-color: #d3d3d3;
 height: 150px;
 text-align: center;
 padding: 30px 0;
-
+}
+#greysec-top p {
+ color: #a1a1a1;
+ padding-top: 10px;
+}
+#greysec-top h2 {
+  font-weight: 600;
 }
 
 #offered-services, #find-level {
@@ -100,12 +105,10 @@ padding: 30px 5%;
 
 .card{
   float: left;
-  background-color: pink;
   width: 30%;
   text-align: center;
-  /* height: 500px; */
-
 }
+
 .card.center  {
   margin: 0 5%;
 }
@@ -117,17 +120,28 @@ padding: 30px 5%;
 .card div {
   padding: 10px;
 }
+.card h3 {
+  color: #94c732;
+  font-weight: 600;
+}
+.card p {
+  color: #a1a1a1;
+}
 .card-2{
   float: left;
-  background-color: yellow;
   width: 40%;
-  /* height: 300px; */
   margin-left: 5%;
-  text-align: center;
   padding: 20px;
 }
 
 .card-2 img {
   width: 80%;
-
+  text-align: center;
+}
+.card-2 h3 {
+  font-size: 160%;
+}
+.card-2 p {
+  padding: 20px 0;
+  color: #a1a1a1;
 }
