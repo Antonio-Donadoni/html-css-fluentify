@@ -85,19 +85,17 @@ background-color: #d3d3d3;
 height: 150px;
 text-align: center;
 padding: 30px 0;
+  font-weight: 600;s
 }
 #greysec-top p {
  color: #a1a1a1;
  padding-top: 10px;
 }
-#greysec-top h2 {
-  font-weight: 600;
-}
 
 #offered-services, #find-level {
 padding: 30px 5%;
 }
-#offered-services::after, #find-level::after{
+#offered-services::after, #find-level::after, #greysec-bottom::after{
   content: "";
   display: table;
   clear: both;
@@ -144,4 +142,22 @@ padding: 30px 5%;
 .card-2 p {
   padding: 20px 0;
   color: #a1a1a1;
+}
+
+#greysec-bottom {
+background-color: #d3d3d3;
+height: 150px;
+font-weight: 600;
+}
+
+.last-section-column {
+  width: 25%;
+  float:left;
+line-height: 150px;
+}
+.last-section-column:first-of-type {
+  width: 50%;
+}
+.last-section-column form {
+  display:inline-block;
 }
