@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .centratura{
   padding: 0 5%;
 }
@@ -29,7 +28,6 @@ button {
   border-radius: 5px;
   margin: 5px;
   font-size: 15px;
-  /* font-weight: 600; */
 }
 
 #login {
@@ -40,51 +38,52 @@ button {
   margin-left: 15px;
 
 }
+
 /* CSS HEADER */
 
 header {
   background-color: #0c325a;
-  height: 400px;
+  height: 420px;
 
 }
-/* CSS NAVBAR */
-nav {
-  width: 100%;
-  height: 60px;
-  background-color: #0c325a;
-  line-height: 60px;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-nav img {
-  float: left;
-  padding: 5px 50px 5px 5px;
-  height: 60px;
-}
-nav ul{
-  float: left;
-  list-style-type: none;
-}
-nav li {
-  float: left;
-}
+  /* CSS NAVBAR */
+  nav {
+    width: 100%;
+    height: 80px;
+    background-color: #0c325a;
+    line-height: 80px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  nav img {
+    float: left;
+    padding: 5px 50px 5px 5px;
+    height: 80px;
+  }
+  nav ul{
+    float: left;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  nav li {
+    float: left;
+  }
 
-nav a {
-  padding: 20px 10px;
-  text-decoration: none;
-  color: inherit;
-}
+  nav a {
+    padding: 20px 10px;
+    text-decoration: none;
+    color: inherit;
+  }
 
-.nav-right {
-  float: right;
-}
-.nav-right div {
-  display: inline-block;
+  .nav-right {
+    float: right;
+  }
+  .nav-right div {
+    display: inline-block;
+  }
 
-}
   /* CSS JUMBO */
-
   .jumbo {
     position: relative;
     height: 340px;
@@ -105,18 +104,6 @@ nav a {
 
 /* CSS MAIN */
 
-#greysec-top {
-background-color: #d3d3d3;
-height: 150px;
-text-align: center;
-padding: 30px 0;
-  font-weight: 600;s
-}
-#greysec-top p {
- color: #7f7f7f;
- padding-top: 10px;
-}
-
 #offered-services, #find-level {
 padding: 30px 5%;
 }
@@ -126,80 +113,104 @@ padding: 30px 5%;
   clear: both;
 }
 
-.card{
-  float: left;
-  width: 30%;
-  text-align: center;
-}
+  /* CSS PRIMA SEZIONE */
 
-.card.center  {
-  margin: 0 5%;
-}
-
-.card img {
-  height: 150px;
-  margin: 0 auto;
-}
-.card div {
-  padding: 10px;
-}
-.card h3 {
-  color: #94c732;
-  font-weight: 600;
-  padding-bottom: 20px;
-  border-bottom: solid 1px #a1a1a1;
-}
-.card p {
-  color: #a1a1a1;
-}
-.card-2{
-  float: left;
-  width: 40%;
-  margin-left: 5%;
-  padding: 20px;
-}
-
-.card-2 img {
-  width: 80%;
-  text-align: center;
-}
-.card-2 h3 {
-  font-size: 160%;
-}
-.card-2 p {
-  padding: 20px 0;
-  color: #a1a1a1;
-}
-
-#greysec-bottom {
-background-color: #d3d3d3;
-height: 150px;
-font-weight: 600;
-}
-
-.last-section-column {
-  width: 25%;
-  float:left;
-line-height: 150px;
-text-align: right;
-}
-.last-section-column:first-of-type {
-  width: 50%;
-  text-align: left;
-}
-.last-section-column form {
-  display:inline-block;
-}
-.last-section-column select {
+  #greysec-top {
   background-color: #d3d3d3;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  color: #7f7f7f;
-}
-.last-section-column span {
-color: #7f7f7f;
-}
-.last-section-column h2{
-  font-size: 150%;
-}
+  height: 150px;
+  text-align: center;
+  padding: 30px 0;
+    font-weight: 600;s
+  }
+  #greysec-top p {
+   color: #7f7f7f;
+   padding-top: 10px;
+  }
+
+  /* CSS SEZIONE TRE COLONNE */
+
+  .card{
+    float: left;
+    width: 30%;
+    text-align: center;
+  }
+  .card.center  {
+    margin: 0 5%;
+  }
+  .card img {
+    height: 150px;
+    margin: 0 auto;
+  }
+  .card div {
+    padding: 10px;
+  }
+  .card h3 {
+    color: #94c732;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  .divider {
+    border-top: solid 1px #a1a1a1;
+    width: 20%;
+    margin: 0 auto;
+  }
+  .card p {
+    color: #a1a1a1;
+  }
+
+  /* CSS SEZIONE DUE COLONNE */
+
+  .card-2{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 20px;
+  }
+
+  .card-2 img {
+    width: 80%;
+    text-align: center;
+  }
+  .card-2 h3 {
+    font-size: 160%;
+  }
+  .card-2 p {
+    padding: 20px 0;
+    color: #a1a1a1;
+  }
+
+  /* CSS SEZIONE BOTTOM */
+
+  #greysec-bottom {
+  background-color: #d3d3d3;
+  height: 150px;
+  font-weight: 600;
+  }
+
+  .last-section-column {
+    width: 25%;
+    float:left;
+    line-height: 150px;
+    text-align: right;
+  }
+  .last-section-column:first-of-type {
+    width: 50%;
+    text-align: left;
+  }
+  .last-section-column form {
+    display:inline-block;
+  }
+  .last-section-column select {
+    background-color: #d3d3d3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #7f7f7f;
+    width: 250px;
+  }
+  .last-section-column span {
+    color: #7f7f7f;
+  }
+  .last-section-column h2{
+    font-size: 150%;
+  }
