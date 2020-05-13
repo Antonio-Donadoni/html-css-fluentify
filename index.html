@@ -22,8 +22,8 @@
         </ul>
         <div class="nav-right">
           <div class="">DIVENTA UN TUTOR</div>
-          <button type="button" name="button">LOGIN</button>
-          <button type="button" name="button">STRUTTURA UN PIANO</button>
+          <button id="login" type="button" name="button">LOGIN</button>
+          <button  type="button" name="button">STRUTTURA UN PIANO</button>
         </div>
       </nav>
       <!-- jumbotron -->
@@ -90,12 +90,13 @@
       <!-- quarta sezione -->
       <section class="centratura" id="greysec-bottom">
         <div class="last-section-column">
-          Struttura un piano
+          <h2>Struttura un piano</h2>
         </div>
         <div class="last-section-column">
           <span>Sono:</span>
           <form>
-            <select id="gender" name="gender">
+            <select id="gender" name="gender" placeholder="Seleziona">
+            <option value="0">Seleziona</option>
             <option value="M">Maschio</option>
             <option value="F">Femmina</option>
             </select>

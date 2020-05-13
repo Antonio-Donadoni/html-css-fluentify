@@ -16,6 +16,28 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+/* CSS BUTTON */
+button {
+  background-color: #7cbb02;
+  border: none;
+  color: white;
+  padding: 15px ;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 15px;
+  /* font-weight: 600; */
+}
+
+#login {
+  background-color: transparent;
+  border: 2px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 15px;
+
+}
 /* CSS HEADER */
 
 header {
@@ -35,7 +57,8 @@ nav {
 }
 nav img {
   float: left;
-  padding: 5px;
+  padding: 5px 50px 5px 5px;
+  height: 60px;
 }
 nav ul{
   float: left;
@@ -160,4 +183,13 @@ line-height: 150px;
 }
 .last-section-column form {
   display:inline-block;
+}
+.last-section-column select {
+  background-color: #d3d3d3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.last-section-column h2{
+  font-size: 150%;
 }
