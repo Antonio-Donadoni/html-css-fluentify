@@ -190,16 +190,30 @@ padding: 30px 5%;
   .last-section-column {
     width: 25%;
     float:left;
-    line-height: 150px;
-    text-align: right;
+    /* line-height: 150px; */
+
+
   }
   .last-section-column:first-of-type {
     width: 50%;
     text-align: left;
+    line-height: 150px;
+    text-align:left;
   }
+
   .last-section-column form {
     display:inline-block;
   }
+  .select{
+    line-height: 150px;
+    text-align: right;
+  }
+  .last-section-column:last-of-type {
+    text-align: center;
+    padding-top: 40px;
+
+  }
+
   .last-section-column select {
     background-color: #d3d3d3;
     border-top: none;
